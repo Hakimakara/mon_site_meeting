@@ -1,0 +1,410 @@
+/* Le header */
+
+#bandore
+{
+    display: flex; 
+    justify-content: flex-end;
+
+    color:#080f1b;
+    font: 16px "helvetica neue",helvetica;
+    background: #caa944;
+  
+}
+.face
+{
+    position: relative;
+    top: 95px;
+    margin-right: 15px;
+}
+
+#dore2
+{
+    display: flex;
+    justify-content: center;
+    background: #caa944;
+    font: 16px "helvetica neue",helvetica;
+}
+
+#logo
+{
+   font :16px "helvetica neue",helvetica;
+    background: #080f1b;
+    padding: 20px 0px;
+}
+
+
+
+#menu{
+list-style:none;/*enlever les puces*/
+}
+
+.liste ul li  {
+display: inline-block;/* aligner la liste*/
+text-transform: uppercase;/*mettre en majusscule */
+font-weight: bold;/*mettre en gras*/
+
+
+
+}
+.liste ul li a {
+    color:#5d5d5d;
+    margin-right:50px;
+}
+
+
+ul li a:hover
+{
+color: #ffff;
+}
+
+ 
+
+
+
+/* ------------------------------Le footer------------------------------------ */
+footer{
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    color: #585858;
+   background-color: #141414;
+   
+    
+    }
+    
+     h1{
+    font-family: 'edo';
+    font-size: 25px;
+    /*text-align: center;*/
+    color: #585858;
+    
+    }
+    
+    footer img{  /* logo facebook*/
+    float: right;
+     }
+    
+    #Copyright{
+    color:#585858;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .mentions{
+    color:#caa944;
+    position:relative;
+    margin-bottom: 50px;
+    }
+    .mentions:hover{
+
+        color: #ffff;
+    }
+    
+    
+/************************************Formulaire de contact*************************************************/
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+
+}
+.comments
+{
+    font-style: italic;
+    font-size: 18px;
+    color: red;
+    height: 25px;
+}
+
+#contact-form input[type-submit]{
+    margin: 40px auto 0px;
+    display: block;
+
+}
+/* .texte{
+    height: 50%;
+    width: 100%;
+} */
+
+
+.button1
+{
+    border: 1px solid #caa944;
+    background: #141414;
+    color:#ffff;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+   
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+   
+
+}
+.button1:hover{
+    background:#caa944 ;
+    border-color: #080f1b;
+    
+}
+
+.merci
+{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+.heading
+{
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#141414;
+}    
+#contact-form
+{
+    font-size: 20px;
+    background: #ffff;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.blue
+{
+    color:red;
+}
+/*********************************S'inscrire**********************/
+
+.form_col {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 3px 0px;
+    width: 200px;
+    min-height: 1px;
+    text-align: right;
+}
+	
+input {
+	padding: 2px;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	outline: none; /* Retire les bordures appliquées par certains navigateurs (Chrome notamment) lors du focus des éléments <input> */
+}
+	
+input:focus {
+	border-color: rgba(82, 168, 236, 0.75);
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+}
+	
+.correct {
+	border-color: rgba(68, 191, 68, 0.75);
+}
+	
+.correct:focus {
+	border-color: rgba(68, 191, 68, 0.75);
+	box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+}
+	
+.incorrect {
+	border-color: rgba(191, 68, 68, 0.75);
+}
+	
+.incorrect:focus {
+	border-color: rgba(191, 68, 68, 0.75);
+	box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+}
+	
+.tooltip {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 2px 4px;
+	border: 1px solid #555;
+	background-color: #CCC;
+	border-radius: 4px;
+}
+
+/*********************************Se connecter**********************/
+#field1{/* la fieldset de la page */
+    padding: 20px; 
+    margin: 10px 0px; 
+    background-color:#6D80EF;
+    margin-top: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 280px;
+    }
+  fieldset p{
+      color:#caa944 ;
+  }
+  /***********************************style de la page d'accueil************************************/
+  .wrapper {
+    width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+    background: yellow;
+    padding: 0 10px; /* le contenu ne soit pas coller a droit et a gauche avec le wrapper */
+ }
+
+.clear {
+    clear: both;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+}
+#menu {
+    background-color:#caa944;
+    padding: 60px 0px;
+    margin-top: 50px;/* espace entre la bande doré de navbar et la bande doré de menu
+}
+
+#menu article{
+ 
+    height:570px;
+    float:left;
+    border-radius: 10px;
+    background: white;
+    margin-left:30px;
+}
+
+#menu article:first-child { /* espacer  1er l'obejet de droit sur le 2eme 
+    margin-right: 400px;
+*/
+}
+
+
+
+
+
+
+
+
+
+/* bhjklmùkljkhbjkvhjcghg*/
+
+
+#presentassos{
+    background-color: #efefef;
+    padding:60px 0px;  
+    height: 500px;
+  }
+#presentassos article{
+	width: 426px;
+	height:270px;
+	float:left;
+	border-radius: 10px;
+}
+
+#presentassos article:first-child { /* espacer  1er l'obejet de droit sur le 2 eme */
+	margin-right: 50px;
+}
+.overlay {
+    /*background: rgba(255, 255, 255, 0.95);*/
+    background:green;
+	width: 300px;
+	height:100%;
+	padding:20px;
+	border-radius: 10px 0 0 10px;
+	text-align: center; /* CENTRER LE BOUTTON QUI SE TROUVE DANS ce overlay*/
+    box-sizing: border-box;/* enlever la bordeur de overly qui depasse l article*/
+
+}
+#article1  {
+   /* background: url(../images/avion.jpg) no-repeat  top center;*/
+    width: 300px;
+    background: red;
+ }
+ #article2  {
+    background: url(../images/avion.jpg) no-repeat  top center;
+    width: 500px;
+
+   
+ }
+
+article h4 { 
+    border-bottom:1px solid #ddd; /* mettre un tré sous le titre*/
+    padding-bottom: 20px; /* eloigner le titre de texte*/
+    text-align: center; /* centrer le titre*/
+    margin-bottom: 20px;
+    color:#caa944;
+    font-family: 'edo';
+    font-size: 20px;
+    }
+article h3 {
+    font-size: 12px; 
+    margin-bottom:80px; 
+ }
+#presentassos p { 
+text-align: center;
+margin-bottom: 20px; /* faire descendre le bontter coller sur le paragraphe*/
+}
+.button1 { 
+    color:wheat;
+    background:#585858;
+    padding: 6px 20px;  /* la marge autour de texte de boutonn 6 en haut et bas 20 gauche droite*/
+    border-radius: 3px;
+    font-weight: bold;/*mettre en gras*/
+    
+}
+.button1:hover { 
+    color:black;
+    background-color:#caa944;
+}
+.button2 { 
+    color:wheat;
+    background:#585858;
+    padding: 6px 20px;  /* la marge autour de texte de boutonn 6 en haut et bas 20 gauche droite*/
+    border-radius: 3px;
+    font-weight: bold;/*mettre en gras*/
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+.button2:hover { 
+   
+    color:black;
+    background-color:#caa944;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------paraagraphe de presentation de l'association----------*/
+#presentassos p{
+    font-size: inherit;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-rendering: optimizeLegibility;
+    margin-right: 50px;
+}
+#presentassos h2{
+    color:#caa944;
+    font-family: 'edo';
+    font-size: 40px;
+    text-align: center;
+}
+
+.presentation {
+    margin-left:500px;
+}
+#bchance{
+    font-size: 1em;
+    color:black;
+    font-weight:bold;
+}
